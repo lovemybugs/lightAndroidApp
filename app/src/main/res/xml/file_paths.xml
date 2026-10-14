@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- 用于「分享 / 用其它应用打开」时把库里的文件暴露成 content:// URI -->
+    <external-files-path
+        name="library"
+        path="library/" />
+    <files-path
+        name="library_internal"
+        path="library/" />
+</paths>

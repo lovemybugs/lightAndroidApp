@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">学习库</string>
+
+    <!-- 通用 -->
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="please_wait">请稍候，正在处理…</string>
+    <string name="retry">重试</string>
+    <string name="more_actions">更多操作</string>
+
+    <!-- 主页 -->
+    <string name="tab_all">浏览</string>
+    <string name="favorites">收藏</string>
+    <string name="recent">最近打开</string>
+    <string name="search">搜索</string>
+    <string name="search_hint">搜索全部文档…</string>
+    <string name="search_results">搜索结果</string>
+    <string name="summary_docs">%1$d 个文件</string>
+    <string name="folder_summary">%1$d 个文件 · %2$s</string>
+    <string name="library_root">我的学习库（根目录）</string>
+
+    <string name="empty_library">学习库还是空的。\n\n点右下角 ＋ 新建科目目录，\n或把手机里的离线 HTML 资料导入进来。</string>
+    <string name="empty_folder">这个目录里还没有内容。\n\n点右下角 ＋ 导入 HTML 文件、\n整个课件文件夹或 ZIP 压缩包。</string>
+    <string name="empty_favorites">还没有收藏。\n长按任何一篇文档，选择「收藏」。</string>
+    <string name="empty_recent">还没有阅读记录。\n打开一篇文档后就会出现在这里。</string>
+    <string name="empty_search">没有找到匹配的文档。</string>
+    <string name="new_or_import">新建 / 导入</string>
+
+    <!-- 排序 / 主题 -->
+    <string name="sort">排序方式</string>
+    <string name="sort_by_name">按名称</string>
+    <string name="sort_by_modified">按修改时间</string>
+    <string name="sort_by_added">按加入时间</string>
+    <string name="show_assets">显示非 HTML 文件</string>
+    <string name="theme">主题</string>
+    <string name="theme_system">跟随系统</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_dark">深色</string>
+    <string name="about">关于</string>
+    <string name="about_body">库文件夹：\n%1$s\n\n已收录 %2$s 篇文档，%3$s 个目录，共 %4$s。\n\n· 用电脑管理资料：把这个文件夹用数据线拷到电脑上直接整理即可，应用会自动识别。\n· 支持用「打开方式」把手机里的 HTML 直接送进来。\n· 阅读进度、收藏、自定义标题都存在库里的 .library.json 中，换机时随文件夹一起带走。</string>
+
+    <!-- 操作 -->
+    <string name="add_to_library">添加到学习库</string>
+    <string name="new_folder">新建目录</string>
+    <string name="folder_name_hint">例如：高等数学</string>
+    <string name="create_folder_failed">创建失败：名称重复或包含非法字符</string>
+    <string name="import_files">导入 HTML 文件</string>
+    <string name="import_folder">导入整个文件夹</string>
+    <string name="import_zip">导入 ZIP 压缩包</string>
+    <string name="import_folder_as_sub">作为一个子目录导入（推荐）</string>
+    <string name="import_folder_flatten">直接展开到当前目录</string>
+    <string name="importing">正在导入…</string>
+    <string name="extracting">正在解压…</string>
+    <string name="import_failed">导入失败</string>
+    <string name="inbox_folder">导入</string>
+
+    <string name="read">阅读</string>
+    <string name="open_with">用其它应用打开</string>
+    <string name="favorite">收藏</string>
+    <string name="unfavorite">取消收藏</string>
+    <string name="added_favorite">已加入收藏</string>
+    <string name="removed_favorite">已取消收藏</string>
+    <string name="rename">重命名</string>
+    <string name="new_name_hint">新名称</string>
+    <string name="rename_failed">重命名失败：名称重复或非法</string>
+    <string name="move_to">移动到…</string>
+    <string name="move_failed">移动失败</string>
+    <string name="moved">已移动</string>
+    <string name="share">分享</string>
+    <string name="delete">删除</string>
+    <string name="delete_confirm">确定删除「%1$s」吗？\n共 %2$d 个文件，删除后无法恢复。</string>
+    <string name="delete_failed">删除失败</string>
+    <string name="nothing_here">这里还没有内容</string>
+    <string name="no_app_for_file">没有找到可以打开这个文件的应用</string>
+    <string name="no_app_for_link">没有找到可以处理这个链接的应用</string>
+
+    <!-- 阅读器 -->
+    <string name="drawer_hint">所有科目都在这里，展开即可切换</string>
+    <string name="back_to_library">返回列表</string>
+    <string name="fullscreen">全屏沉浸</string>
+    <string name="exit_fullscreen">退出全屏</string>
+    <string name="font_size">正文字号</string>
+    <string name="desktop_mode">桌面版排版</string>
+    <string name="force_dark">强制深色</string>
+    <string name="force_dark_unsupported">当前系统 WebView 不支持强制深色</string>
+    <string name="refresh">重新载入</string>
+    <string name="toc">科目目录</string>
+    <string name="handle_hint">点一下正文可以收起 / 叫回小把手\n把它拖到别的边，下次就从那边拉出工具栏</string>
+    <string name="label_toc">目录</string>
+    <string name="label_favorite">收藏</string>
+    <string name="label_font">字号</string>
+    <string name="label_dark">深色</string>
+    <string name="label_desktop">桌面版</string>
+    <string name="label_fullscreen">全屏</string>
+    <string name="label_refresh">刷新</string>
+    <string name="label_share">分享</string>
+    <string name="label_open_with">其它应用</string>
+    <string name="label_collapse">收起</string>
+    <string name="load_failed">这篇文档没能打开。\n如果它引用了同目录的图片或样式，\n请确认这些文件也一起导入了。</string>
+</resources>

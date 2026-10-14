@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_primary">#B0C6FF</color>
+    <color name="brand_on_primary">#002E69</color>
+    <color name="brand_primary_container">#1B4298</color>
+    <color name="brand_on_primary_container">#DCE4FF</color>
+    <color name="brand_secondary">#C2C5DD</color>
+    <color name="brand_on_secondary">#2C2F42</color>
+
+    <color name="app_surface">#131318</color>
+    <color name="app_surface_container_high">#2B2930</color>
+    <color name="app_on_surface">#E4E1E9</color>
+    <color name="app_on_surface_variant">#C6C6D0</color>
+    <color name="app_outline">#90909A</color>
+
+    <color name="doc_tint">#7FD8AE</color>
+
+    <!-- 高透玻璃：深色下偏黑，只留一点点通透 -->
+    <color name="panel_glass">#B3131318</color>
+    <color name="panel_glass_strong">#E6131318</color>
+    <color name="panel_glass_stroke">#40FFFFFF</color>
+    <color name="panel_glass_gloss">#1FFFFFFF</color>
+
+</resources>

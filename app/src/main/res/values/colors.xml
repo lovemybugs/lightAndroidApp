@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_primary">#3563E9</color>
+    <color name="brand_on_primary">#FFFFFF</color>
+    <color name="brand_primary_container">#DCE4FF</color>
+    <color name="brand_on_primary_container">#001A41</color>
+    <color name="brand_secondary">#5A5D72</color>
+    <color name="brand_on_secondary">#FFFFFF</color>
+
+    <color name="app_surface">#FBF8FD</color>
+    <color name="app_surface_container_high">#EAE7F0</color>
+    <color name="app_on_surface">#1B1B21</color>
+    <color name="app_on_surface_variant">#45464F</color>
+    <color name="app_outline">#757780</color>
+
+    <!--
+      阅读器左侧拉出的小面板 / 把手：高透玻璃的底色。
+      透明度先给到六七成，Android 12+ 再由代码叠加背景模糊（setBackgroundBlurRadius）。
+      把手比面板实一点，否则在浅色课件上找不到它。
+    -->
+    <color name="panel_glass">#99FBF8FD</color>
+    <color name="panel_glass_strong">#E0FBF8FD</color>
+    <color name="panel_glass_stroke">#33000000</color>
+    <color name="panel_glass_gloss">#2EFFFFFF</color>
+
+    <!-- HTML 文档的图标颜色 -->
+    <color name="doc_tint">#1E8E5A</color>
+
+    <color name="ic_launcher_background">#3563E9</color>
+</resources>
